@@ -9,7 +9,7 @@ public class Main {
 		int idade = scanner.nextInt();
 		
 		if(idade > 0 && idade <= 13) {
-			System.out.println("voce e crianca");
+		     	System.out.println("voce e crianca");
 		}else if(idade >= 14 && idade <= 17) {
 			System.out.println("voce e adolescente");
 		}else {
