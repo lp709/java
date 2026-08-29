@@ -1,3 +1,4 @@
+//Programa para verificar se tem salario alto;
 import java.util.Scanner;
 
 public class Main {
@@ -10,7 +11,7 @@ public class Main {
 		System.out.print("Qual e a tua idade?: ");
 		int idade = scanner.nextInt();
 
-		System.out.print("Qual e o seu slario?: ");
+		System.out.print("Qual e o seu salario?: ");
 		double salario = scanner.nextDouble();
 
 		//Nome
