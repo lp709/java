@@ -3,16 +3,16 @@ import java.util.Scanner;
 
 public class Main {
 	public static void main(String[] args) {
-		Scanner scanner = new Scanner(System.in);
+		Scanner input = new Scanner(System.in);
 
 		System.out.print("Qual e o seu nome?: ");
-		String nome = scanner.nextLine();
+		String nome = input.nextLine();
 
 		System.out.print("Qual e a tua idade?: ");
-		int idade = scanner.nextInt();
+		int idade = input.nextInt();
 
 		System.out.print("Qual e o seu salario?: ");
-		double salario = scanner.nextDouble();
+		double salario = input.nextDouble();
 
 		//Nome
 		nome = nome.toUpperCase(); 
@@ -39,5 +39,6 @@ public class Main {
 		}else {
 	 		System.out.println("Voce Tem Um Salario Alto, Parabens");
 		}
+		input.close();
 	}
 }	

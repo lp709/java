@@ -14,7 +14,7 @@ public class Main {
 		}else if(idade >= 14 && idade <= 17) {
 			System.out.println("voce e adolescente");
 		}else {
-			System.out.println("voce e adulto");
+			System.out.println("voce e maior de 18");
 		}
 
   }
