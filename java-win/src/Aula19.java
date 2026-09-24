@@ -14,8 +14,6 @@ public class Aula19 {
 
         while (rNum != num) {
 
-
-
             if (rNum == num) {
 
                 System.out.println("Prabens voce acertou");
