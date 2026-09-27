@@ -1,4 +1,4 @@
-public class Aula5 {
+public class Main {
     public static void main(String[] args) {
 
         byte numero = -5;

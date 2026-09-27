@@ -1,4 +1,4 @@
-public class Aula3 {
+public class Main {
     public static void main(String[] args) {
 
         byte idade = 20;

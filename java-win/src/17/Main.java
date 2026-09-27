@@ -1,7 +1,7 @@
 import java.util.Random;
 import java.util.Scanner;
 
-public class Aula19 {
+public class Main {
 
     public static void main(String[] args) {
 
@@ -18,11 +18,13 @@ public class Aula19 {
 
                 System.out.println("Prabens voce acertou");
 
-            } else if (rNum > num) {
+            } 
+            else if (rNum > num) {
 
                 System.out.println("Muito Alto");
 
-            } else if (rNum < num) {
+            } 
+            else if (rNum < num) {
 
                 System.out.println("Muito Baixo");
 
@@ -31,6 +33,7 @@ public class Aula19 {
             System.out.print("Digite um numero: ");
             rNum = scanner.nextInt();
 
+            scanner.close();
         }
 
     }
