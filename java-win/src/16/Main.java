@@ -19,5 +19,6 @@ public class Main {
             System.out.print("fodase");
         }
 
+        Scanner.close();
     }
 }
